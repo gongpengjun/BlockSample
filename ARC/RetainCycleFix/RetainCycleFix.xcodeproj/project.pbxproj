@@ -1,0 +1,245 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4F93948177883F50042E5C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F93947177883F50042E5C8 /* Foundation.framework */; };
+		C4F9394B177883F50042E5C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F9394A177883F50042E5C8 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C4F93942177883F50042E5C8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C4F93944177883F50042E5C8 /* RetainCycleFix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RetainCycleFix; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4F93947177883F50042E5C8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4F9394A177883F50042E5C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4F9394D177883F50042E5C8 /* RetainCycleFix-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RetainCycleFix-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4F93941177883F50042E5C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F93948177883F50042E5C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4F9393B177883F50042E5C8 = {
+			isa = PBXGroup;
+			children = (
+				C4F93949177883F50042E5C8 /* RetainCycleFix */,
+				C4F93946177883F50042E5C8 /* Frameworks */,
+				C4F93945177883F50042E5C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4F93945177883F50042E5C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4F93944177883F50042E5C8 /* RetainCycleFix */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4F93946177883F50042E5C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4F93947177883F50042E5C8 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4F93949177883F50042E5C8 /* RetainCycleFix */ = {
+			isa = PBXGroup;
+			children = (
+				C4F9394A177883F50042E5C8 /* main.m */,
+				C4F9394C177883F50042E5C8 /* Supporting Files */,
+			);
+			path = RetainCycleFix;
+			sourceTree = "<group>";
+		};
+		C4F9394C177883F50042E5C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4F9394D177883F50042E5C8 /* RetainCycleFix-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4F93943177883F50042E5C8 /* RetainCycleFix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4F93952177883F50042E5C8 /* Build configuration list for PBXNativeTarget "RetainCycleFix" */;
+			buildPhases = (
+				C4F93940177883F50042E5C8 /* Sources */,
+				C4F93941177883F50042E5C8 /* Frameworks */,
+				C4F93942177883F50042E5C8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RetainCycleFix;
+			productName = RetainCycleFix;
+			productReference = C4F93944177883F50042E5C8 /* RetainCycleFix */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4F9393C177883F50042E5C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "巩 鹏军";
+			};
+			buildConfigurationList = C4F9393F177883F50042E5C8 /* Build configuration list for PBXProject "RetainCycleFix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4F9393B177883F50042E5C8;
+			productRefGroup = C4F93945177883F50042E5C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4F93943177883F50042E5C8 /* RetainCycleFix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4F93940177883F50042E5C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F9394B177883F50042E5C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C4F93950177883F50042E5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C4F93951177883F50042E5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4F93953177883F50042E5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetainCycleFix/RetainCycleFix-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4F93954177883F50042E5C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RetainCycleFix/RetainCycleFix-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4F9393F177883F50042E5C8 /* Build configuration list for PBXProject "RetainCycleFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F93950177883F50042E5C8 /* Debug */,
+				C4F93951177883F50042E5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4F93952177883F50042E5C8 /* Build configuration list for PBXNativeTarget "RetainCycleFix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4F93953177883F50042E5C8 /* Debug */,
+				C4F93954177883F50042E5C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4F9393C177883F50042E5C8 /* Project object */;
+}
